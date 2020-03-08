@@ -10,12 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import view.Ingredient;
 
 import javax.validation.Valid;
+import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-
-import static sun.java2d.cmm.ColorTransform.In;
 
 @Controller
 @RequestMapping("/design")
@@ -50,6 +49,21 @@ public class DesignTacoController {
 
     }
 
+    //end::showDesignForm[]
+
+        /*
+        //tag::processDesign[]
+          @PostMapping
+          public String processDesign(Design design) {
+            // Save the taco design...
+            // We'll do this in chapter 3
+            log.info("Processing design: " + design);
+            return "redirect:/orders/current";
+          }
+        //end::processDesign[]
+         */
+
+    //tag::processDesignValidated[]
     @PostMapping
     public String processDesing(@Valid Taco design, Errors errors) {
         if(errors.hasErrors()) {
@@ -57,11 +71,30 @@ public class DesignTacoController {
         }
         /*
         * Save toco design, We should to this in Chapter 3, log.info("Processing design:" + design);
-        *
+        * // Save the taco design...
+    // We'll do this in chapter 3
+    log.info("Processing design: " + design)
         * */
 
         log.info("Processing design: " + design);
         return "redirect:/orders/current";
     }
 
+
+//end::processDesignValidated[]
+
+    //tag::filterByType[]
+    private List<Ingredient> filterByType(
+            List<Ingredient> ingredients, Type type) {
+        return ingredients
+                .stream()
+                .filter(x -> x.getType().equals(type))
+                .collect(Collectors.toList());
+    }
+
+//end::filterByType[]
+// tag::foot[]
 }
+// end::foot[]
+
+

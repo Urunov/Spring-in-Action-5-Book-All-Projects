@@ -11,3 +11,7 @@ public class HomeController {
         return "home";
     }
 }
+/*
+*  Return type is related resource folder, template/home.html
+*  Temporarily using address, and not required fixed location.
+* */

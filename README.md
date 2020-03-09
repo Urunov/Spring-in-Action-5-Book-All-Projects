@@ -19,6 +19,7 @@ Indeed, you may observer Maven (pom.xml) file and all dependecy. In that project
 To fix the errors, simply install Lombok. Lombok has support for most common (and arguably a few uncommon) IDEs, so no matter which IDE you use, you should be covered. See [Lombok] https://projectlombok.org/setup/overview for details on installing Lombok in your IDE.
 
 # InAddition 
-In that folder, you can donwload [Spring in Action], and Annotation explanations. 
+In that folder, you can donwload [Spring in Action] https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/InAddition, and Annotation explanations. 
 
+# Thymeleaf
 

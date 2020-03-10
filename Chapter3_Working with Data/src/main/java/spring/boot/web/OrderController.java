@@ -24,10 +24,11 @@ import javax.validation.Valid;
 
 public class OrderController {
     //
-    private OrderRepository orderRepository;
+    private OrderRepository orderRepo;
 
-    public OrderRepository(OrderRepository orderRepository) {
-        this.orderRepository = orderRepository;
+    public OrderController(OrderRepository orderRepository)
+    {
+        this.orderRepo = orderRepository;
     }
 
     @GetMapping("/current")
@@ -37,11 +38,12 @@ public class OrderController {
 
     @PostMapping
     public String processOrder(@Valid Order order, Errors errors, SessionStatus sessionStatus) {
+
         if(errors.hasErrors()) {
             return "orderForm";
         }
 
-        orderRepository.save(order);
+        orderRepo.save(order);
         sessionStatus.setComplete();
 
         return "redirect:/";

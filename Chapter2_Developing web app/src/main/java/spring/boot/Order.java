@@ -54,6 +54,7 @@ public class Order {
     //tag::allButValidation[]
     private String ccCVV;
 
+
 }
 
 //end::allButValidation[]

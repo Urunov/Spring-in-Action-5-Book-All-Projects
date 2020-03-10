@@ -6,6 +6,7 @@ import lombok.Data;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -19,10 +20,17 @@ import java.util.List;
      *
      *
      * **/
+    //tag::newFields[]
 @Data
 public class Taco {
     //
     //end:: allButValidation[]
+
+    private Long id;
+
+    private Date createAt;
+
+    //end::newFields[]
     @NotNull
     @Size(min = 5, message = "Name must be at least 5 characters long")
     //tag::allButValidation[]
@@ -32,6 +40,12 @@ public class Taco {
     //tag::allButValidation[]
     private List<String> ingredients;
 
+     /*
+//tag::newFields[]
+   ...
+
+//end::newFields[]
+   */
+//tag::newFields[]
 }
-// end:allButValidation[]
-// tag::end[]
+//end::newFields[]

@@ -7,7 +7,6 @@ import spring.boot.Order;
  * @project SpringData
  * @Author Hamdamboy
  */
-public class OrderRepository {
-    public void save(Order order) {
-    }
+public interface OrderRepository {
+   Order save(Order order);
 }

@@ -7,7 +7,7 @@ import spring.boot.Taco;
  * @project SpringData
  * @Author Hamdamboy
  */
-public class TacoRepository {
+public interface TacoRepository {
 
     Taco save(Taco design);
 }

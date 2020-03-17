@@ -20,9 +20,9 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
      * Taco pizza (which I called project name) project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC and JPA.  
  
    ### Important: 
-      >  <dependency>
-      >      <groupId>com.h2database</groupId>
-      >      <groupId>org.hibernate</groupId>
+         <dependency>
+             <groupId>com.h2database</groupId>
+            <groupId>org.hibernate</groupId>
       >      <artifactId>credit_card_number</artifactId>
       >      <artifactId>assertj-core</artifactId>
       >      <artifactId>lombok</artifactId>

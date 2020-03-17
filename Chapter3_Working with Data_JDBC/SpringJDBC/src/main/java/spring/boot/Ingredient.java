@@ -21,12 +21,14 @@ import java.util.List;
 //tag::newFields[]
 @RequiredArgsConstructor
 @Data
+
 public class Ingredient {
     //
 
     private final String id;
     private final String name;
     private Type type;
+
 
     public static enum Type {
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE

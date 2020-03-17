@@ -1,14 +1,10 @@
 package jpa.spring;
 
-import lombok.AccessLevel;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import net.bytebuddy.jar.asm.Type;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
+
+import lombok.*;
+
 
 /**
  * @Created 13 / 03 / 2020 - 3:49 PM
@@ -19,7 +15,9 @@ import javax.persistence.Table;
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
+
 @Entity
+
 public class Ingredient {
     //
     @Id
@@ -30,5 +28,4 @@ public class Ingredient {
     public static enum Type {
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
     }
-
 }

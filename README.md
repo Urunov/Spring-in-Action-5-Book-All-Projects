@@ -39,10 +39,10 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
  4.  [Chapter-4. Securing Spring ](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data_JDBC)
     
  Autoconfiguring Spring Security
- Defining custom user storage
- Customizing the login page
- Securing against CSRF attacks
- Knowing your user
+   * Defining custom user storage 
+   * Customizing the login page
+   * Securing against CSRF attacks
+   * Knowing your user
  
  
  ###

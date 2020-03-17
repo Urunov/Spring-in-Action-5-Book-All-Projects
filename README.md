@@ -19,14 +19,14 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
    + [Chapter-3. Working with Data JPA](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data%20JPA)
      * Taco pizza (which I called project name) project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC and JPA.  
  
- * Important: 
-     <br>  <dependency>
-      <br>      <groupId>com.h2database</groupId>
-            <groupId>org.hibernate</groupId>
-            <artifactId>credit_card_number</artifactId>
-            <artifactId>assertj-core</artifactId>
-            <artifactId>lombok</artifactId>
-            <artifactId>htmlunit-driver</artifactId>
+   ### Important: 
+      >  <dependency>
+      >      <groupId>com.h2database</groupId>
+      >      <groupId>org.hibernate</groupId>
+      >      <artifactId>credit_card_number</artifactId>
+      >      <artifactId>assertj-core</artifactId>
+      >      <artifactId>lombok</artifactId>
+      >      <artifactId>htmlunit-driver</artifactId>
     </dependency>
      <properties>
         <project.build.sourceEncoding>

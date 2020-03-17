@@ -6,15 +6,19 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
 #
 
 1.  [Chapter-1. Getting started with Spring](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter1_Getting%20started%20with%20Spring)
-     * Gradle project provides Spring Boot and JDBC (using Gradle)
+    
+    * Maven project provides Spring Boot and Spring Web Initialize thymeleaf
      
      
 2. [Chapter-2. Developing web app](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter2_Developing%20web%20app)
      * Family Member small project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC (only template not JPA ). 
 
-
-3. 
+3.  [Chapter-3. Working with Data_JDBC](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data_JDBC)
+     * Family Member small project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC (only template not JPA ). 
  
+  + [Chapter-3. Working with Data JPA](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data%20JPA)
+     * Family Member small project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC (only template not JPA ).  
+ #
 There is one folder for each chapter in the book—​except for chapters 11 and 12, which share a source folder—​each containing most or all of the sample code for that chapter.
 
 This source code is available for download from the book’s page at Manning.com as well as in GitHub at [Projects](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects)

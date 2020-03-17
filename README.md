@@ -35,6 +35,16 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
             UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+ 
+ 4.  [Chapter-4. Securing Spring ](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data_JDBC)
+    
+ Autoconfiguring Spring Security
+ Defining custom user storage
+ Customizing the login page
+ Securing against CSRF attacks
+ Knowing your user
+ 
+ 
  ###
  
 There is one folder for each chapter in the book—​except for chapters 11 and 12, which share a source folder—​each containing most or all of the sample code for that chapter.

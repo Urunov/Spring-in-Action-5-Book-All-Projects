@@ -21,12 +21,12 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
  
    ### Important: 
          <dependency>
-             <groupId>com.h2database</groupId>
+            <groupId>com.h2database</groupId>
             <groupId>org.hibernate</groupId>
-      >      <artifactId>credit_card_number</artifactId>
-      >      <artifactId>assertj-core</artifactId>
-      >      <artifactId>lombok</artifactId>
-      >      <artifactId>htmlunit-driver</artifactId>
+            <artifactId>credit_card_number</artifactId>
+            <artifactId>assertj-core</artifactId>
+            <artifactId>lombok</artifactId>
+            <artifactId>htmlunit-driver</artifactId>
     </dependency>
      <properties>
         <project.build.sourceEncoding>
@@ -35,7 +35,8 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
             UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
- #
+ ###
+ 
 There is one folder for each chapter in the book—​except for chapters 11 and 12, which share a source folder—​each containing most or all of the sample code for that chapter.
 
 This source code is available for download from the book’s page at Manning.com as well as in GitHub at [Projects](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects)

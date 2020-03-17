@@ -4,6 +4,39 @@
 
 Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls [Spring in Action 5](https://www.manning.com/books/spring-in-action-fifth-edition)
 #
+
+1.  [Chapter-1. Getting started with Spring](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter1_Getting%20started%20with%20Spring)
+    
+    * Maven project provides Spring Boot and Spring Web Initialize thymeleaf
+     
+     
+2. [Chapter-2. Developing web app](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter2_Developing%20web%20app)
+     * The project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC (only template not JPA ). 
+
+3.  [Chapter-3. Working with Data_JDBC](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data_JDBC)
+     * Taco pizza (which I called project name) project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Gradle configuration, and DB (database) using JDBC (only template not JPA ). 
+ 
+   + [Chapter-3. Working with Data JPA](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data%20JPA)
+     * Taco pizza (which I called project name) project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC and JPA.  
+ 
+   ### Important: 
+         <dependency>
+            <groupId>com.h2database</groupId>
+            <groupId>org.hibernate</groupId>
+            <artifactId>credit_card_number</artifactId>
+            <artifactId>assertj-core</artifactId>
+            <artifactId>lombok</artifactId>
+            <artifactId>htmlunit-driver</artifactId>
+    </dependency>
+     <properties>
+        <project.build.sourceEncoding>
+            UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>
+            UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+ ###
+ 
 There is one folder for each chapter in the book—​except for chapters 11 and 12, which share a source folder—​each containing most or all of the sample code for that chapter.
 
 This source code is available for download from the book’s page at Manning.com as well as in GitHub at [Projects](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects)

@@ -36,7 +36,7 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
         <java.version>1.8</java.version>
     </properties>
  
- 4.  [Chapter-4. Securing Spring ](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data_JDBC)
+ 4.  [Chapter-4. Securing Spring ](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter4_Securing%20Spring)
     
  Autoconfiguring Spring Security
    * Defining custom user storage 

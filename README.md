@@ -8,11 +8,10 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
 1.  [Chapter-1. Getting started with Spring](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter1_Getting%20started%20with%20Spring)
     
     * Maven project provides Spring Boot and Spring Web Initialize thymeleaf
-     
-     
+#     
 2. [Chapter-2. Developing web app](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter2_Developing%20web%20app)
      * The project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Maven configuration, and DB (database) using JDBC (only template not JPA ). 
-
+#
 3.  [Chapter-3. Working with Data_JDBC](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter3_Working%20with%20Data_JDBC)
      * Taco pizza (which I called project name) project provides Spring Boot and JDBC template (using MySQL) implementation. In case of, Spring Boot using Gradle configuration, and DB (database) using JDBC (only template not JPA ). 
  
@@ -35,7 +34,7 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
             UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
- 
+ #
  4.  [Chapter-4. Securing Spring ](https://github.com/Hamdambek/Spring-in-Action-5-Book-All-Projects/tree/master/Chapter4_Securing%20Spring)
     
  Autoconfiguring Spring Security

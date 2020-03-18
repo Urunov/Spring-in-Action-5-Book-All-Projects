@@ -44,8 +44,25 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
    * Securing against CSRF attacks
    * Knowing your user
  
+ Missing parts in the textbook
+Necessary dependencies in the .pom file
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+<dependency>
+  <groupId>javax.persistence</groupId>
+  <artifactId>javax.persistence-api</artifactId>
+  <version>2.2</version>
+</dependency>
+Inspect h2-console using your browser
+Log in
+Go to localhost:8080/h2-console
+Set JDBC URL to jdbc:h2:mem:testdb
+Test connection should show successful
+Click connect
  
- ###
+ #
  
 There is one folder for each chapter in the book—​except for chapters 11 and 12, which share a source folder—​each containing most or all of the sample code for that chapter.
 

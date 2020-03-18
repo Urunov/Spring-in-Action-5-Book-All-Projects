@@ -43,9 +43,9 @@ Those are the project codes for Spring in Action, Fifth Edition, by Craig Walls 
    * Securing against CSRF attacks
    * Knowing your user
  
- Missing parts in the textbook
-Necessary dependencies in the .pom file
-<dependency>
+###Missing parts in the textbook
+> Necessary dependencies in the .pom file
+> <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>

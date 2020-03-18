@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1><center> Welcome to...</center></h1>
+<img th:src="@{/images/TacoCloud.png}"/>
+<form method="POST" th:action="@{/logout}" id="logoutForm">
+    <input type="submit" value="Logout"/>
+
+    <a th:href="@{/design}" id="design">Design a taco</a>
+</form>
+</body>
+</html>

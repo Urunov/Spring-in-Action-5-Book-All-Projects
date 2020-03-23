@@ -9,14 +9,14 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
- * @Created 17 / 03 / 2020 - 6:43 PM
+ * @Created 23 / 03 / 2020 - 5:17 PM
  * @project BootSecure
  * @Author Hamdamboy
  */
 
 @Data
 @RequiredArgsConstructor
-@NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
+//@NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
 @Entity
 public class Ingredient {
     //
@@ -25,7 +25,7 @@ public class Ingredient {
     private final String name;
     private final Type type;
 
-    public static enum Type{
+    public static enum Type {
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
     }
 }

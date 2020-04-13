@@ -24,7 +24,7 @@ import java.util.Collection;
 @Data
 @Entity
 //@NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
-//@RequiredArgsConstructor
+////@RequiredArgsConstructor
 
 public class User implements UserDetails {
     //
@@ -73,3 +73,8 @@ public class User implements UserDetails {
         return true;
     }
 }
+
+
+//https://mkyong.com/spring-boot/
+//https://github.com/dangeabunea/RomanianCoderExamples/blob/master/SpringBootSecurity/Forms/pom.xml
+//https://spring.io/guides/gs/authenticating-ldap/
